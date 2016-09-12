@@ -3,7 +3,7 @@ void setup()
 {
   size(800,800);
   background(0,0,0);
-  textSize(25);
+  textSize(26);
   fill(255,255,255);
   text("Click mouse to open and close Pac-mans mouth.", 100, 50);
 }
