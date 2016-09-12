@@ -18,7 +18,7 @@ void draw()
  stroke(0,0,0);
  ellipse(x,400,20,20);
  x -= 1;
- if (x == 475)
+ if (x == 475);
  {
  x = 750;
  }
