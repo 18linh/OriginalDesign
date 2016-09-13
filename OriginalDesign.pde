@@ -2,14 +2,6 @@ int y = 550;
 float pacR = 246;
 float pacG = 255;
 float pacB = 0;
-void setup()
-{
-  size(800,600);
-  //background(0,0,0);
-  textSize(26);
-  fill(255,255,255);
-  text("Click mouse to open and close Pac-mans mouth.", 100, 50);
-}
 void draw()
 {
  noStroke();
@@ -28,6 +20,14 @@ void draw()
  pacR = random(0, 255);
  pacG = random(0, 255);
  pacB = random(0, 255);
+}
+void setup()
+{
+  size(800,600);
+  background(0,0,0);
+  textSize(26);
+  fill(255,255,255);
+  text("Click mouse to open and close Pac-mans mouth.", 100, 50);
 }
 void mouseClicked()
 {
