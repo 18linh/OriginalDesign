@@ -12,6 +12,7 @@ void setup()
 }
 void draw()
 {
+frameRate(30);
  noStroke();
  fill(pacR,pacG,pacB);
  arc(400, 400, 180, 180, QUARTER_PI, PI+HALF_PI+QUARTER_PI, PI);
