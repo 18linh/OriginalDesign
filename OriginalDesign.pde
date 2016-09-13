@@ -12,14 +12,14 @@ void setup()
 }
 void draw()
 {
+ stroke(0,0,0);
+ ellipse(y,400,20,20);
  noStroke();
  fill(pacR,pacG,pacB);
  arc(400, 400, 180, 180, QUARTER_PI, PI+HALF_PI+QUARTER_PI, PIE);
  fill(0,0,0);
  ellipse(385,355,15,15);
  fill(255,255,255);
- stroke(0,0,0);
- ellipse(y,400,20,20);
  dotMove -= 2;
  if (dotMove == 476)
  {
