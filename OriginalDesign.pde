@@ -10,11 +10,10 @@ void setup()
   fill(255,255,255);
   text("Click mouse to open and close Pac-mans mouth.", 100, 50);
 }
-void draw()
-{
+void draw(){
  noStroke();
  fill(pacR,pacG,pacB);
- arc(100, 400, 180, 180, QUARTER_PI, PI+HALF_PI+QUARTER_PI, PIE);
+ arc(400, 400, 180, 180, QUARTER_PI, PI+HALF_PI+QUARTER_PI, PIE);
  fill(0,0,0);
  ellipse(385,355,15,15);
  fill(255,255,255);
