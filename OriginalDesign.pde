@@ -13,7 +13,7 @@ void setup()
 void draw()
 {
  stroke(0,0,0);
- ellipse(y,400,20,20);
+ ellipse(dotMove,400,20,20);
  noStroke();
  fill(pacR,pacG,pacB);
  arc(400, 400, 180, 180, QUARTER_PI, PI+HALF_PI+QUARTER_PI, PIE);
