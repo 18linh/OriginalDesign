@@ -14,7 +14,7 @@ void draw()
 {
  noStroke();
  fill(pacR,pacG,pacB);
- arc(400, 400, 180, 180, QUARTER_PI, PI+HALF_PI+QUARTER_PI, PIE);
+ arc(400, 400, 180, 180, QUARTER_PI, PI+HALF_PI+QUARTER_PI, PI);
  fill(0,0,0);
  ellipse(385,355,15,15);
  fill(255,255,255);
@@ -34,7 +34,7 @@ void mouseClicked()
  fill(pacR,pacG,pacB);
  noStroke();
  arc(400, 400, 180, 180, PI+HALF_PI+QUARTER_PI, TWO_PI+QUARTER_PI);
- //arc(50, 50, 180, 180, PI+HALF_PI+QUARTER_PI, QUARTER_PI, PIE);
+ //arc(50, 50, 180, 180, PI+HALF_PI+QUARTER_PI, QUARTER_PI, PI);
 }
 void mousePressed()
 {
