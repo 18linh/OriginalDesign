@@ -14,7 +14,7 @@ void draw()
 {
  noStroke();
  fill(pacR,pacG,pacB);
- arc(400, 400, 180, 180, QUARTER_PI, PI+HALF_PI+QUARTER_PI, PIE);
+ arc(100, 400, 180, 180, QUARTER_PI, PI+HALF_PI+QUARTER_PI, PIE);
  fill(0,0,0);
  ellipse(385,355,15,15);
  fill(255,255,255);
