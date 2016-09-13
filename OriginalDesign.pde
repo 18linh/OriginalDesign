@@ -9,7 +9,7 @@ void setup()
 }
 void draw()
 {
-  noStroke();
+  //noStroke();
  fill(#F7E42D);
  arc(400, 400, 180, 180, QUARTER_PI, PI+HALF_PI+QUARTER_PI, PIE);
  fill(0,0,0);
