@@ -1,4 +1,4 @@
-int dotMove = 550;
+int y = 550;
 float pacR = 246;
 float pacG = 255;
 float pacB = 0;
@@ -12,18 +12,18 @@ void setup()
 }
 void draw()
 {
- stroke(0,0,0);
- ellipse(dotMove,400,20,20);
  noStroke();
  fill(pacR,pacG,pacB);
  arc(400, 400, 180, 180, QUARTER_PI, PI+HALF_PI+QUARTER_PI, PIE);
  fill(0,0,0);
  ellipse(385,355,15,15);
  fill(255,255,255);
- dotMove -= 2;
- if (dotMove == 476)
+ stroke(0,0,0);
+ ellipse(y,400,20,20);
+ y -= 2;
+ if (y == 476)
  {
-   dotMove = 750;
+   y = 750;
  }
  pacR = random(0, 255);
  pacG = random(0, 255);
