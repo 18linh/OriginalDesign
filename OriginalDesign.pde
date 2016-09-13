@@ -9,8 +9,8 @@ void setup()
 }
 void draw()
 {
-  //noStroke();
- fill(#F7E42D);
+  noStroke();
+ fill(246,255,0);
  arc(400, 400, 180, 180, QUARTER_PI, PI+HALF_PI+QUARTER_PI, PIE);
  fill(0,0,0);
  ellipse(385,355,15,15);
